@@ -1,0 +1,9 @@
+========== IMAGE ANALYSIS REPORT ==========
+
+Image Name: 0a5c8e672d.jpg
+Width: 475
+Height: 633
+Resolution: 475 x 633
+Channels: 3
+Format: .jpg
+File Size (KB): 77.78

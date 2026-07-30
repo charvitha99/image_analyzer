@@ -1,0 +1,9 @@
+========== IMAGE ANALYSIS REPORT ==========
+
+Image Name: 0c367cd2fa.jpg
+Width: 225
+Height: 225
+Resolution: 225 x 225
+Channels: 3
+Format: .jpg
+File Size (KB): 13.9

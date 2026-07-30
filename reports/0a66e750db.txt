@@ -1,0 +1,9 @@
+========== IMAGE ANALYSIS REPORT ==========
+
+Image Name: 0a66e750db.jpg
+Width: 183
+Height: 275
+Resolution: 183 x 275
+Channels: 3
+Format: .jpg
+File Size (KB): 12.54

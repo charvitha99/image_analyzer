@@ -1,0 +1,9 @@
+========== IMAGE ANALYSIS REPORT ==========
+
+Image Name: 0ad2cb5741.jpg
+Width: 201
+Height: 251
+Resolution: 201 x 251
+Channels: 3
+Format: .jpg
+File Size (KB): 11.61

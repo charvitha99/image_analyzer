@@ -1,0 +1,9 @@
+========== IMAGE ANALYSIS REPORT ==========
+
+Image Name: 0a8b79f96d.jpg
+Width: 310
+Height: 163
+Resolution: 310 x 163
+Channels: 3
+Format: .jpg
+File Size (KB): 11.63

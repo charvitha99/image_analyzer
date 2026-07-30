@@ -1,0 +1,9 @@
+========== IMAGE ANALYSIS REPORT ==========
+
+Image Name: 0b22982f33.jpg
+Width: 201
+Height: 251
+Resolution: 201 x 251
+Channels: 3
+Format: .jpg
+File Size (KB): 13.11

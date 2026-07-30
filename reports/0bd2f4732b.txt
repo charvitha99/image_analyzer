@@ -1,0 +1,9 @@
+========== IMAGE ANALYSIS REPORT ==========
+
+Image Name: 0bd2f4732b.jpg
+Width: 1280
+Height: 720
+Resolution: 1280 x 720
+Channels: 3
+Format: .jpg
+File Size (KB): 260.14

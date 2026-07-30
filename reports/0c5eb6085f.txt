@@ -1,0 +1,9 @@
+========== IMAGE ANALYSIS REPORT ==========
+
+Image Name: 0c5eb6085f.jpg
+Width: 1600
+Height: 1066
+Resolution: 1600 x 1066
+Channels: 3
+Format: .jpg
+File Size (KB): 142.49

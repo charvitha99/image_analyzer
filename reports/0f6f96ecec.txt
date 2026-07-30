@@ -1,0 +1,9 @@
+========== IMAGE ANALYSIS REPORT ==========
+
+Image Name: 0f6f96ecec.jpg
+Width: 1500
+Height: 2003
+Resolution: 1500 x 2003
+Channels: 3
+Format: .jpg
+File Size (KB): 382.25

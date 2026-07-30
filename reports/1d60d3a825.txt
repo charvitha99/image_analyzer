@@ -1,0 +1,9 @@
+========== IMAGE ANALYSIS REPORT ==========
+
+Image Name: 1d60d3a825.jpg
+Width: 259
+Height: 194
+Resolution: 259 x 194
+Channels: 3
+Format: .jpg
+File Size (KB): 22.73

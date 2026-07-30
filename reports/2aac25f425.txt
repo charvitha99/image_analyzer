@@ -1,0 +1,9 @@
+========== IMAGE ANALYSIS REPORT ==========
+
+Image Name: 2aac25f425.jpg
+Width: 1365
+Height: 2048
+Resolution: 1365 x 2048
+Channels: 3
+Format: .jpg
+File Size (KB): 650.7

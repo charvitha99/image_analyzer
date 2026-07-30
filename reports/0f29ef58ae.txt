@@ -1,0 +1,9 @@
+========== IMAGE ANALYSIS REPORT ==========
+
+Image Name: 0f29ef58ae.jpg
+Width: 183
+Height: 275
+Resolution: 183 x 275
+Channels: 3
+Format: .jpg
+File Size (KB): 13.72

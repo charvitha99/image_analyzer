@@ -1,0 +1,9 @@
+========== IMAGE ANALYSIS REPORT ==========
+
+Image Name: 0ea582d23a.jpg
+Width: 924
+Height: 1386
+Resolution: 924 x 1386
+Channels: 3
+Format: .jpg
+File Size (KB): 204.87

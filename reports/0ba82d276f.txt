@@ -1,0 +1,9 @@
+========== IMAGE ANALYSIS REPORT ==========
+
+Image Name: 0ba82d276f.jpg
+Width: 280
+Height: 180
+Resolution: 280 x 180
+Channels: 3
+Format: .jpg
+File Size (KB): 21.21
