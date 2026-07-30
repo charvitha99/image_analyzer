@@ -13,17 +13,21 @@ def main():
     output_folder = "outputs"
     report_folder = "reports"
 
-    os.makedirs(output_folder, exist_ok=True)
-    os.makedirs(report_folder, exist_ok=True)
-
-    validator = ImageValidator()
-    analyzer = ImageAnalyzer()
-    processor = ImageProcessor()
-    reporter = ReportGenerator()
-
-    logger.info("Image Analyzer Project Started")
-
     try:
+        # Check if images folder exists
+        if not os.path.exists(image_folder):
+            raise FileNotFoundError(f"'{image_folder}' folder not found.")
+
+        # Create required folders
+        os.makedirs(output_folder, exist_ok=True)
+        os.makedirs(report_folder, exist_ok=True)
+
+        validator = ImageValidator()
+        analyzer = ImageAnalyzer()
+        processor = ImageProcessor()
+        reporter = ReportGenerator()
+
+        logger.info("Image Analyzer Project Started")
 
         for category in os.listdir(image_folder):
 
@@ -43,8 +47,8 @@ def main():
                 valid, message = validator.validate_image(image_path)
 
                 if not valid:
-                    print(f"{image_name} : {message}")
-                    logger.warning(f"{image_name} : {message}")
+                    print(f"{image_name}: {message}")
+                    logger.warning(f"{image_name}: {message}")
                     continue
 
                 # Analyze Image
@@ -88,13 +92,17 @@ def main():
         print("\nAll images processed successfully.")
         logger.info("All images processed successfully.")
 
-    except FileNotFoundError:
-        print("Error: Images folder not found.")
-        logger.error("Images folder not found.")
+    except FileNotFoundError as e:
+        print(f"File Error: {e}")
+        logger.error(f"File Error: {e}")
 
-    except PermissionError:
-        print("Error: Permission denied while accessing files.")
-        logger.error("Permission denied while accessing files.")
+    except PermissionError as e:
+        print(f"Permission Error: {e}")
+        logger.error(f"Permission Error: {e}")
+
+    except OSError as e:
+        print(f"Operating System Error: {e}")
+        logger.error(f"Operating System Error: {e}")
 
     except Exception as e:
         print(f"Unexpected Error: {e}")
