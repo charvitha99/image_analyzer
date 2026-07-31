@@ -1,4 +1,11 @@
 services:
   image-analyzer:
+    image: charvitha/image-analyzer:v1
+    
     build: .
     container_name: image-analyzer-container
+
+    volumes:
+      - ./dataset:/app/dataset
+      - ./outputs:/app/outputs
+      - ./reports:/app/reports
