@@ -1,0 +1,4 @@
+services:
+  image-analyzer:
+    build: .
+    container_name: image-analyzer-container
